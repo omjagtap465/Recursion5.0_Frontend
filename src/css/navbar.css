@@ -1,0 +1,11 @@
+.navbar-search {
+    height: 3.5rem;
+    width: 26rem;
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .navbar-search {
+        width: 21.9rem;
+    }
+}

@@ -1,0 +1,112 @@
+.comment-container {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-title {
+    padding: 10px;
+    margin-bottom: 10px;
+    /* background-color: #007bff; */
+    /* Blue title background */
+    /* color: #fff; */
+    /* White title text */
+    font-weight: bold;
+    /* Bold title text */
+    text-align: center;
+    /* Center align title */
+}
+
+.comment-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.comment-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-avatar img {
+    width: 80%;
+    height: 80%;
+}
+
+.comment-content {
+    background-color: #fff;
+    /* White comment background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1;
+}
+
+.comment-content p {
+    margin: 0;
+}
+
+.comment-content button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    /* Blue button background */
+    color: #fff;
+    /* White button text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-content button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-comment input {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 17px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-comment button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    /* Blue button background */
+    color: #fff;
+    /* White button text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-comment button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
